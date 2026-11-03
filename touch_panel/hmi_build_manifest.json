@@ -1,0 +1,12 @@
+{
+  "model": "TJC4827T143_011R_P20",
+  "baud": 9600,
+  "size": [
+    480,
+    272
+  ],
+  "pages": 12,
+  "touch_regions": 73,
+  "hmi_sha256": "db2713a92fd3bbf185da0232ea86d4f0e22b99d68fa25816d0905a8710e29c59",
+  "validation": "container round-trip passed; vendor compilation required"
+}

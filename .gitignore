@@ -1,0 +1,13 @@
+# 构建、仿真及本地工具产生的临时文件
+/build/
+/work/
+/transcript
+/vsim.wlf
+/modelsim.ini
+/td_*.log
+/td_*.logw
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*

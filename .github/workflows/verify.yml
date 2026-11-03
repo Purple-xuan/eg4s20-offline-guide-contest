@@ -1,0 +1,15 @@
+name: 工程文件完整性校验
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 获取工程文件
+        uses: actions/checkout@v4
+      - name: 校验交付清单、工程路径与头文件引用
+        run: python3 scripts/verify_package.py

@@ -1,0 +1,247 @@
+Reading C:/modeltech64_10.6e/tcl/vsim/pref.tcl
+
+# 10.6e
+
+# do scripts/test_resident_integration.do
+# work_resident_integration
+# C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 14:50:40 on Nov 03,2026
+# vlog -work work_resident_integration C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v 
+# 
+# Top level modules:
+# End time: 14:50:40 on Nov 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 14:50:40 on Nov 03,2026
+# vlog -work work_resident_integration src/include/sdr_init_ref.enc.v src/include/sdr_wrrd.enc.v src/include/sdr_as_ram.enc.v 
+# -- Compiling module sdr_init_ref
+# ** Warning: (vlog-2121) src/include/sdr_init_ref.enc.v(209): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Warning: (vlog-2121) <protected>(<protected>): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# -- Compiling module sdr_as_ram
+# 
+# Top level modules:
+# 	sdr_as_ram
+# End time: 14:50:41 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 14:50:41 on Nov 03,2026
+# vlog -work work_resident_integration src/SD/resident_row_reader.v src/SD/resident_slot_writer.v src/image/resident_line_buffers.v src/image/resident_display_engine.v sim/gallery_sdram_memory.v sim/tb_resident_display_engine.v 
+# -- Compiling module resident_row_reader
+# -- Compiling module resident_slot_writer
+# -- Compiling module resident_line_buffers
+# -- Compiling module resident_native_ram
+# -- Compiling module resident_display_engine
+# -- Compiling module gallery_sdram_memory
+# -- Compiling module tb_resident_display_engine
+# 
+# Top level modules:
+# 	tb_resident_display_engine
+# End time: 14:50:41 on Nov 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 14:50:41 on Nov 03,2026
+# vlog -work work_resident_integration src/SD/resident_load_request_cdc.v sim/tb_resident_load_request_cdc.v 
+# -- Compiling module resident_load_request_cdc
+# -- Compiling module tb_resident_load_request_cdc
+# ** Warning: sim/tb_resident_load_request_cdc.v(24): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	tb_resident_load_request_cdc
+# End time: 14:50:41 on Nov 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.6e Compiler 2018.06 Jun 23 2018
+# Start time: 14:50:41 on Nov 03,2026
+# vlog -work work_resident_integration src/SD/sd_card_bmp.v src/control/input_event_router.v src/image/bmp_resize_pipeline.v src/image/bmp_pixel_reservoir.v src/image/nearest_letterbox_scaler.v src/IP/afifo_16_32_256.v src/IP/afifo_32_16_256.v src/audio/audio_pcm_fifo.v src/audio/wav_file_stream_reader.v src/audio/wav_riff_parser.v src/FAT32/sd_sector_arbiter_2.v src/FAT32/fat32_file_streamer.v sim/tb_sd_card_bmp_cache.v sim/tb_resident_media_control.v 
+# -- Compiling module sd_card_bmp
+# -- Compiling module auto_bgm_player
+# -- Compiling module key_press_debounce
+# -- Compiling module input_event_router
+# -- Compiling module button_level_debounce
+# -- Compiling module bmp_resize_pipeline
+# -- Compiling module bmp_pixel_reservoir
+# -- Compiling module nearest_letterbox_scaler
+# -- Compiling module wfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_wfifo_32_32_512
+# -- Compiling module ram_infer_wfifo_32_32_512
+# -- Compiling module rfifo_32_32_512
+# -- Compiling module fifo_cross_domain_addr_process_al_rfifo_32_32_512
+# -- Compiling module ram_infer_rfifo_32_32_512
+# -- Compiling module audio_pcm_fifo
+# -- Compiling module wav_file_stream_reader
+# -- Compiling module canonical_wav_file_stream_reader
+# -- Compiling module wav_riff_parser
+# -- Compiling module sd_sector_arbiter_2
+# -- Compiling module fat32_file_streamer
+# -- Compiling module tb_sd_card_bmp_cache
+# -- Compiling module fat32_bmp_reader
+# -- Compiling module sd_sector_adapter
+# -- Compiling module sd_card_top
+# -- Compiling module tb_resident_media_control
+# 
+# Top level modules:
+# 	input_event_router
+# 	tb_sd_card_bmp_cache
+# 	tb_resident_media_control
+# End time: 14:50:41 on Nov 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish stop -voptargs="+acc" -lib work_resident_integration tb_resident_display_engine 
+# Start time: 14:50:41 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 2 FSMs in module "resident_display_engine(fast)".
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/sim_release/eg4/eg_logic_bram.v(59): (vopt-2697) <protected> of part-select into '<protected>' is out of bounds.
+# ** Warning: sim/tb_resident_display_engine.v(61): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 44, found 40.
+# ** Warning: sim/tb_resident_display_engine.v(61): (vopt-2718) [TFMPC] - Missing connection for port 'displayed_roi'.
+# ** Warning: sim/tb_resident_display_engine.v(61): (vopt-2718) [TFMPC] - Missing connection for port 'displayed_emergency'.
+# ** Warning: sim/tb_resident_display_engine.v(61): (vopt-2718) [TFMPC] - Missing connection for port 'displayed_valid'.
+# ** Warning: sim/tb_resident_display_engine.v(61): (vopt-2718) [TFMPC] - Missing connection for port 'displayed_slot'.
+# ** Warning: (vopt-2121) src/include/sdr_wrrd.enc.v(77): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# ** Note: (vopt-143) Recognized 1 FSM in module "resident_slot_writer(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "resident_row_reader(fast)".
+# ** Warning: (vopt-2121) src/include/sdr_init_ref.enc.v(209): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+# //  ModelSim SE-64 10.6e Jun 23 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_resident_display_engine(fast)
+# Loading work.gallery_sdram_memory(fast)
+# Loading work.sdr_as_ram(fast)
+# Loading work.sdr_init_ref(fast)
+# Loading work.resident_slot_writer(fast)
+# Loading work.resident_display_engine(fast)
+# Loading work.resident_row_reader(fast)
+# Loading work.resident_line_buffers(fast)
+# Loading work.resident_native_ram(fast)
+# Loading work.resident_native_ram(fast__1)
+# Loading work.resident_native_ram(fast__2)
+# Loading work.resident_native_ram(fast__3)
+# RESIDENT_DISPLAY_PASS checks=37934080
+# ** Note: $finish    : sim/tb_resident_display_engine.v(360)
+#    Time: 715012437012 ps  Iteration: 0  Instance: /tb_resident_display_engine
+# Break in Module tb_resident_display_engine at sim/tb_resident_display_engine.v line 360
+# Stopped at sim/tb_resident_display_engine.v line 360
+# End time: 14:53:31 on Nov 03,2026, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 15
+# vsim -onfinish stop -voptargs="+acc" -lib work_resident_integration tb_resident_media_control 
+# Start time: 14:53:31 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 2 FSMs in module "sd_card_bmp(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "nearest_letterbox_scaler(fast)".
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 112, found 60.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'bgm_right_data'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'bgm_left_data'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_underflow_count'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_page'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_sample_consumed'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_playback_start'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_done'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_active'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_right_data'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_left_data'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'audio_sample_valid'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'SD_MOSI'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'SD_DCLK'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'SD_nCS'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_data'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_en'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_v_flip'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_req'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'reverse_switch'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'manual_switch'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'disp_buf_idx'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_buf_idx'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'write_abort_toggle'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'fault_notice_epoch'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'fault_notice_state'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'roi_display_grid_y'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'roi_display_grid_x'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'roi_display_units'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'thumbnail_pixel_rgb'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'thumbnail_pixel_valid'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'thumbnail_page'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'thumbnail_commit'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'thumbnail_start'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'failed_page_mask'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_auto_step'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_done'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_missing_audio'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_target_pending'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_video_ready'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_replay'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_region'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_page'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'hotspot_mode'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_navigation_keep_audio'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_navigation_cancel'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_navigation_audio_ready'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'bad_page_notice'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_navigation_busy'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_audio_mute'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_silent_auto'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_auto_paused'.
+# ** Warning: sim/tb_resident_media_control.v(20): (vopt-2718) [TFMPC] - Missing connection for port 'home_auto_run'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "audio_pcm_fifo(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "fat32_file_streamer(fast)".
+# ** Warning: src/IP/afifo_16_32_256.v(240): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# ** Warning: src/IP/afifo_16_32_256.v(240): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# ** Warning: src/IP/afifo_16_32_256.v(240): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# ** Warning: src/IP/afifo_32_16_256.v(231): (vopt-2685) [TFMPC] - Too few port connections for 'ram_inst'.  Expected 16, found 14.
+# ** Warning: src/IP/afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'dib'.
+# ** Warning: src/IP/afifo_32_16_256.v(231): (vopt-2718) [TFMPC] - Missing connection for port 'doa'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "auto_bgm_player(fast)".
+# Loading work.tb_resident_media_control(fast)
+# Loading work.sd_card_bmp(fast)
+# Loading work.key_press_debounce(fast)
+# Loading work.fat32_bmp_reader(fast)
+# Loading work.bmp_resize_pipeline(fast)
+# Loading work.bmp_pixel_reservoir(fast)
+# Loading work.wfifo_32_32_512(fast)
+# Loading work.fifo_cross_domain_addr_process_al_wfifo_32_32_512(fast)
+# Loading work.ram_infer_wfifo_32_32_512(fast)
+# Loading work.nearest_letterbox_scaler(fast)
+# Loading work.auto_bgm_player(fast)
+# Loading work.wav_file_stream_reader(fast)
+# Loading work.fat32_file_streamer(fast)
+# Loading work.wav_riff_parser(fast)
+# Loading work.audio_pcm_fifo(fast)
+# Loading work.rfifo_32_32_512(fast)
+# Loading work.fifo_cross_domain_addr_process_al_rfifo_32_32_512(fast)
+# Loading work.ram_infer_rfifo_32_32_512(fast)
+# Loading work.sd_sector_arbiter_2(fast)
+# Loading work.sd_sector_adapter(fast)
+# Loading work.sd_card_top(fast)
+# RESIDENT_CONTROL_PASS
+# ** Note: $finish    : sim/tb_resident_media_control.v(198)
+#    Time: 54140 ns  Iteration: 1  Instance: /tb_resident_media_control
+# Break in Module tb_resident_media_control at sim/tb_resident_media_control.v line 198
+# Stopped at sim/tb_resident_media_control.v line 198
+# End time: 14:53:32 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 59
+# vsim -onfinish stop -voptargs="+acc" -lib work_resident_integration tb_resident_load_request_cdc 
+# Start time: 14:53:32 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_resident_load_request_cdc(fast)
+# Loading work.resident_load_request_cdc(fast)
+# RESIDENT_LOAD_CDC_PASS descriptors=2
+# ** Note: $finish    : sim/tb_resident_load_request_cdc.v(47)
+#    Time: 440 ns  Iteration: 1  Instance: /tb_resident_load_request_cdc
+# Break in Module tb_resident_load_request_cdc at sim/tb_resident_load_request_cdc.v line 47
+# Stopped at sim/tb_resident_load_request_cdc.v line 47
+# End time: 14:53:33 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

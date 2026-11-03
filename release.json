@@ -1,0 +1,17 @@
+{
+  "version": "EG4S20_Timing_Positive_Source_20261103_r2",
+  "device": "EG4S20BG256",
+  "tool": "TD 6.2.168116",
+  "top": "top",
+  "seed": 50,
+  "hardware_validated": true,
+  "hardware_validation_source": "user report: all functions normal",
+  "source_change": "directory relocation only; source bytes unchanged",
+  "source_files": 104,
+  "bitstream_sha256": "63ccaf5856ff695dca3d887bab254e916ea7bee711eace2fd5327f969294fbf2",
+  "routed_db_sha256": "28bab9b6541cc6b0d6bf8203e9341fc3e478995b2d7497bc095a4be4e7f8b698",
+  "original_sdc_sha256": "5c418e5ee819f25668ea2605f09874c96ccf06d19a6b7659b21979a8ffb26328",
+  "setup_wns_ns": 0.374,
+  "hold_wns_ns": 0.022,
+  "sta_coverage_percent": 99.97
+}

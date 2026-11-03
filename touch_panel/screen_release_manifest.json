@@ -1,0 +1,24 @@
+{
+  "model": "TJC4827T143_011R_P20",
+  "resolution": [
+    480,
+    272
+  ],
+  "pages": 12,
+  "touchRegions": 73,
+  "baud": 9600,
+  "vendorCompile": {
+    "passed": true,
+    "errors": 0,
+    "warnings": 0,
+    "evidence": "verification/tjc_latest_20261031/editor_compiled.png"
+  },
+  "hardwareValidated": false,
+  "files": [
+    {
+      "file": "museum_touch_480x272.tft",
+      "bytes": 1004996,
+      "sha256": "60DF8642A7BF0C8469E5B418DCC423C221343D91A4EBA4CBF5D721836F985F7E"
+    }
+  ]
+}
